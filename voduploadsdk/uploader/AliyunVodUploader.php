@@ -1,5 +1,5 @@
 <?php
-namespace VodUploadeSdk;
+
 /**
  * Created by Aliyun ApsaraVideo VoD.
  * User: https://www.aliyun.com/product/vod
