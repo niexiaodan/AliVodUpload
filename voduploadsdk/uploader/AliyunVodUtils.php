@@ -1,11 +1,11 @@
 <?php
-
+	namespace VodUploadeSdk;
 
 /**
  * Created by Aliyun ApsaraVideo VoD.
  * User: https://www.aliyun.com/product/vod
  */
-use OSS\Core\OssUtil;
+use CroSdk\Http\HttpHelper;
 
 class AliyunVodUtils
 {

@@ -1,5 +1,5 @@
 <?php
-
+namespace VodUploadeSdk;
 /**
  * Created by Aliyun ApsaraVideo VoD.
  * User: https://www.aliyun.com/product/vod
@@ -8,6 +8,9 @@
 use vod\Request\V20170321 as vod;
 use OSS\OssClient;
 use OSS\Core\OssUtil;
+use CroSdk\Http\HttpHelper;
+use CoreSdk\DefaultAcsClient;
+use CroSdk\Profile\DefaultProfile;
 
 class AliyunVodUploader
 {

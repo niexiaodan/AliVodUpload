@@ -1,5 +1,5 @@
 <?php
-
+	namespace VodUploadeSdk;
 /**
  * Class UploadImageRequest
  *

@@ -1,27 +1,30 @@
 {
-    "name": "niexiaodan/ali-vod-upload",
-    "description": "Ali VodUpload Sdk for PHP",
-    "homepage": "http://www.aliyun.com/product/oss/",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "niexiaodan",
-            "homepage": "http://www.aliyun.com"
-        }
-    ],
-    "require": {
-        "php":">=5.3"
-    },
-    "require-dev" : {
-        "phpunit/phpunit": "*",
-        "satooshi/php-coveralls": "*"
-    },
-    "minimum-stability": "stable",
-    "autoload": {
-        "psr-4": {
-               "OSS\\": "voduploadsdk/aliyun-php-sdk-oss/src/OSS",
-               "vod\\Request\\V20170321\\": "voduploadsdk/aliyun-php-sdk-vod/vod/Requestuest/V20170321"
-        }
+  "name": "niexiaodan/ali-vod-upload",
+  "description": "Ali VodUpload Sdk for PHP",
+  "homepage": "http://www.aliyun.com/product/oss/",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "niexiaodan",
+      "homepage": "http://www.aliyun.com"
     }
+  ],
+  "require": {
+    "php": ">=5.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*",
+    "satooshi/php-coveralls": "*"
+  },
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "OSS\\": "voduploadsdk/aliyun-php-sdk-oss/src/OSS",
+      "vod\\Request\\V20170321\\": "voduploadsdk/aliyun-php-sdk-vod/vod/Requestuest/V20170321",
+      "CroSdk\\": "voduploadsdk/aliyun-php-sdk-core",
+      "CroSdk\\Http\\": "voduploadsdk/aliyun-php-sdk-core/Http",
+      "CroSdk\\Profile\\": "voduploadsdk/aliyun-php-sdk-core/Profile"
+    }
+  }
 }
