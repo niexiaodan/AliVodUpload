@@ -20,9 +20,9 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-               "OSS\\": "ali-vod-upload/voduploadsdk/aliyun-php-sdk-oss/src/OSS",
-               "vod\\Request\\V20170321\\": "ali-vod-upload/voduploadsdk/aliyun-php-sdk-vod/vod/Requestuest/V20170321",
-               "VodUploadeSdk\\":"ali-vod-upload/voduploadsdk/uploader"
+               "OSS\\": "voduploadsdk/aliyun-php-sdk-oss/src/OSS",
+               "vod\\Request\\V20170321\\": "voduploadsdk/aliyun-php-sdk-vod/vod/Requestuest/V20170321",
+               "VodUploadeSdk\\":"voduploadsdk/uploader"
         }
     }
 }
