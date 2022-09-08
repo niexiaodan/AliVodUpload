@@ -1,12 +1,12 @@
 {
-    "name": "AliVodUpload",
+    "name": "niexiaodan/AliVodUpload",
     "description": "Ali VodUpload Sdk for PHP",
     "homepage": "http://www.aliyun.com/product/oss/",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Aliyuncs",
+            "name": "niexiaodan",
             "homepage": "http://www.aliyun.com"
         }
     ],
