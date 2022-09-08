@@ -21,7 +21,7 @@
     "autoload": {
         "psr-4": {
                "OSS\\": "voduploadsdk/aliyun-php-sdk-oss/src/OSS",
-               "vod\\Request\\V20170321\\": "voduploadsdk/aliyun-php-sdk-vod/vod/Requestuest/V20170321",
+               "vod\\Request\\V20170321\\": "voduploadsdk/aliyun-php-sdk-vod/vod/Requestuest/V20170321"
         }
     }
 }
