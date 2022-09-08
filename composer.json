@@ -1,0 +1,28 @@
+{
+    "name": "AliVodUpload",
+    "description": "Ali VodUpload Sdk for PHP",
+    "homepage": "http://www.aliyun.com/product/oss/",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aliyuncs",
+            "homepage": "http://www.aliyun.com"
+        }
+    ],
+    "require": {
+        "php":">=5.3"
+    },
+    "require-dev" : {
+        "phpunit/phpunit": "*",
+        "satooshi/php-coveralls": "*"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+               "OSS\\": "AliVodUpload/voduploadsdk/aliyun-php-sdk-oss/src/OSS",
+               "vod\\Request\\V20170321": "AliVodUpload/voduploadsdk/aliyun-php-sdk-vod/vod/Requestuest/V20170321",
+               "VodUploadeSdk\\":"AliVodUpload/voduploadsdk/uploader"
+        }
+    }
+}
